@@ -1,0 +1,49 @@
+@import "../../../static/config";
+
+.no-data-return {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.no-data-return h1 {
+    color: $accentBlue;
+    padding: 10px;
+    display: inline;
+    border-bottom: 1px dotted black;
+}
+
+.table-main th {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    text-align: center;
+    border: 0.5px solid $accentBlue;
+}
+
+.table-main td {
+    text-align: center;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 200;
+    border: 0.5px solid $accentBlue;
+}
+
+.table-main tr {
+    padding: 0px;
+    margin: 0px;
+}
+
+.table-main {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+

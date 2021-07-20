@@ -1,0 +1,43 @@
+@import "config";
+
+.inventory-page-container {
+  margin: auto;
+  width: 95%;
+  margin-top: 20px;
+}
+
+.inventory-page-title {
+  color: $accentBlue;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+.inventory-params-container {
+  width: 100%;
+  display: flex;
+}
+
+.num-only {
+  display: none;
+  background-color: rgb(255, 110, 110);
+  border: 2px solid rgb(255, 20, 20);
+  border-radius: 10px;
+  width: 80%;
+}
+
+.num-only-text{
+  padding-left: 20px;
+}
+
+.sendQuery {
+  height: 30px;
+  outline: none;
+  border: 1px solid $accentBlue;
+  background-color: $backgroundColor;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.sendQuery:hover {
+  background-color: $accentBlue;
+}

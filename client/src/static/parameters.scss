@@ -1,0 +1,31 @@
+@import "config";
+
+.bounds-container {
+    margin-left: 60px;
+}
+
+.bounds-title {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+
+}
+
+.number-field {
+    color: black;
+    background-color: $backgroundColor;
+    height: 18px;
+    border: none;
+    font: Helvetica;
+    font-size: 1em;
+    display: flex;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(30,30,30);
+}
+
+.number-field:focus {
+    outline: none;
+}

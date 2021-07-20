@@ -1,0 +1,56 @@
+@import "config";
+
+.heading-container {
+  position: relative;
+  height: 30px;
+  display: flex;
+}
+
+.expand-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  position: absolute;
+  transform: rotate(-90deg);
+
+  animation-name: turn-arrow-down;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+
+.title-heading {
+  letter-spacing: 10px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  line-height: 30px;
+  margin-left: 60px;
+}
+
+.expand-icon:hover {
+  cursor: pointer;
+}
+
+@keyframes turn-arrow-down {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes turn-arrow-sideways {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}

@@ -1,0 +1,16 @@
+$font: Roboto;
+$fontSizeBig: 4em;
+$backgroundColor: rgb(245, 245, 245);
+$accentBlack: black;
+$accentBlue: rgb(43, 132, 255);
+
+.login-component-container {
+  margin: auto;
+  max-width: 280px;
+  margin-top: 20vh;
+}
+
+.login-title {
+  color: $accentBlack;
+  font-size: $fontSizeBig;
+}

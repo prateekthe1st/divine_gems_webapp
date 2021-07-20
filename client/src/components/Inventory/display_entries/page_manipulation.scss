@@ -1,0 +1,28 @@
+@import "../../../static/config";
+
+.page-change-container {
+    padding: 20px;
+    display: flex;
+    width: 6%;
+    margin: auto;
+}
+
+.page-change-container h3 {
+    padding: 7px;
+    margin: 3px;
+    display: inline;
+}
+
+.page-change-container h3:hover{
+    color: $accentBlue;
+    cursor: pointer;
+}
+
+.center-page {
+    font-weight: bold;
+    color: $accentBlue;
+}
+
+.external {
+    font-weight: 500;
+}

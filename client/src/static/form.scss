@@ -1,0 +1,49 @@
+@import "config";
+
+%login-form-input-fields {
+  display: block;
+  margin: 20px 0px;
+  border: none;
+  width: 100%;
+  font-size: 1em;
+  padding: 10px;
+}
+
+.username-input-field {
+  @extend %login-form-input-fields;
+  box-shadow: $boxShadowSettings;
+}
+
+.password-input-field {
+  @extend %login-form-input-fields;
+  box-shadow: $boxShadowSettings;
+}
+
+.login-form-submit-btn {
+  display: block;
+  margin: 20px 0px;
+  border: none;
+  width: 300px;
+  padding: 10px;
+  color: white;
+  background-color: $accentBlack;
+  box-shadow: $boxShadowSettings;
+}
+
+.login-form-submit-btn:hover {
+  animation-name: change-bg-color;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+@keyframes change-bg-color {
+  0% {
+    background-color: $accentBlack;
+    color: white;
+  }
+  100% {
+    background-color: $accentBlue;
+    color: $accentBlack;
+  }
+}
